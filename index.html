@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Даурен - fullstack developer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="/script.js"></script>
+    
+</head>
+<body>
+    <header>
+        <h1>Даурен - fullstack developer</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">Обо мне</a></li>
+            <li><a href="#skills">Навыки</a></li>
+            <li><a href="#projects">Проекты</a></li>
+            <li><a href="#education">Образование</a></li>
+            <li><a href="#contact">Контакты</a></li>
+        </ul>
+    </nav>
+    <section id="about">
+        <h2>Обо мне</h2>
+        <p>Привет, я Даурен, студент колледжа AITU, специализирующийся на веб-разработке</p>
+    </section>
+    <section id="skills">
+        <h2>Навыки</h2>
+        <div class="skill-block">HTML</div>
+        <div class="skill-block">CSS</div>
+        <div class="skill-block">JavaScript</div>
+        <div class="skill-block">React.js</div>
+        <div class="skill-block">SCSS</div>
+        <div class="skill-block">Bootstrap</div>
+        <div class="skill-block">Redux</div>
+        <div class="skill-block">Django</div>
+        <div class="skill-block">python </div>
+    </section>
+
+    <section id="projects">
+        <h2>Проекты</h2>
+        <div class="project">
+            <div class="project-info">
+                <h3>TastyPriority</h3>
+                <p>Цель "TastyPriority" заключается в том, чтобы стать ведущим сервисом заказа еды, предоставляя пользователям не только удобство, но и возможность наслаждаться высококачественной и разнообразной пищей. Проект стремится удовлетворить индивидуальные потребности каждого пользователя, предоставляя персонализированные рекомендации, инновационные функции и уникальные привилегии.</p>
+            </div>
+        </div>
+
+         
+    </section>
+
+    <section id="screenshots">
+    <h2>Скриншоты Проектов</h2>
+    <div class="gallery">
+        <img src="1.jpeg" alt="Скриншот 1" class="gallery-image" onclick="openModal(this.src)">
+        <img src="2.jpeg" alt="Скриншот 2" class="gallery-image" onclick="openModal(this.src)">
+        <img src="3.jpeg" alt="Скриншот 2" class="gallery-image" onclick="openModal(this.src)">
+        <img src="4.jpeg" alt="Скриншот 2" class="gallery-image" onclick="openModal(this.src)">
+        <img src="5.jpeg" alt="Скриншот 2" class="gallery-image" onclick="openModal(this.src)">
+        <img src="6.jpeg" alt="Скриншот 2" class="gallery-image" onclick="openModal(this.src)">
+        <img src="7.jpeg" alt="Скриншот 2" class="gallery-image" onclick="openModal(this.src)">
+
+    </div>
+
+
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+    </div>
+    </section>
+
+
+    <section id="education">
+        <h2>Образование</h2>
+        <div class="certificate-download">
+            <button onclick="downloadCertificate()">Загрузить Сертификат</button>
+            <img src="Снимок экрана 2024-01-17 161954.png" alt="Сертификат" class="certificate-img">
+        </div>
+
+    </section>
+    <section id="contact">
+        <h2>Контакты</h2>
+        <div class="contact-info">
+    <div class="contact-item">
+        <img src="1608790_phone_icon.png" alt="Phone" class="icon">
+        <p>+7 747 971 68 57</p>
+    </div>
+    <div class="contact-item">
+        <img src="7693324_telegram_social media_logo_messenger_icon.png" alt="Telegram" class="icon">
+        <p>@Daryha5</p>
+    </div>
+    <div class="contact-item">
+        <img src="134146_mail_email_icon.png" alt="Email" class="icon">
+        <p>daryha56@gmail.com</p>
+    </div>
+        <div class="contact-item">
+            <a href=" https://github.com/daryha" style="display: flex; align-items: center; text-decoration: none;">
+                        <img src="github-mark.png" alt="Email" class="icon">
+        <p>Github.com</p>
+            </a>
+    </div>
+</div>
+
+
+    </section>
+
+    <footer>
+        <p>© 2024 Даурен. Все права защищены.</p>
+    </footer>
+</body>
+</html>
